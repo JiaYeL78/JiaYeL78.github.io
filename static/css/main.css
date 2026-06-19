@@ -54,6 +54,10 @@ section .main-body{
     line-height: 2.4rem;
 }
 
+section .main-body p {
+    margin: 0.8em 0;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;

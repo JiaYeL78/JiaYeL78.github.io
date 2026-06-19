@@ -1,20 +1,33 @@
-[![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/XX)
+I am currently a student at Shenzhen University, pursuing a Bachelor's degree in Electronic Information Engineering (AI Class), expected to graduate in 2027.  
+<br>
+我目前就读于深圳大学，攻读电子信息工程（AI班）本科学位，预计2027年毕业。
 
-I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
+<br><br>
 
-#### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+#### Education 
+**Shenzhen University**  
+Bachelor of Electronic Information Engineering (AI Class) (2024 – 2027)  
+• GPA: 3.82/4.5  
+• Core Courses: Deep Learning Theory, Big Data Analysis, Deep Neural Networks and Project Practice
+<br><br>
 
-#### Education  
-**XX University**, Master of XX (XX – XX)  
-• GPA: XX/XX  
+**深圳大学**  
+电子信息工程（AI班）本科（2024 – 2027）  
+• GPA: 3.82/4.5  
+• 核心课程：深度学习理论、大数据分析、深度神经网络与项目实践
+<br><br><br>
 
-**XX University**, Exchange student <br>  
-• As a XX, represented my college as an outstanding student for a XX exchange program.  
+#### Research Interests
 
-**XX University**, Honours Bachelor of XX (XX – XX)  
-• GPA: XX/XX (top XX%)  
+Computer Vision ,
+Deep Learning ,
+Image Segmentation ,
+Object Detection ,
+Trend Prediction  
+<br>
 
-#### Research Interests  
-XX, XX, XX, XX.
+#### Skills 
+
+• Programming: Python, C++  
+• Tools: PyTorch  
+• Languages: English (CET-4)  

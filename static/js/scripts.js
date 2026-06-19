@@ -1,6 +1,6 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'awards', 'experience', 'publications'];
+const section_names = ['home', 'awards', 'experience', 'career', 'publications'];
 
 // 背景图片列表
 const bgImages = [

@@ -88,6 +88,21 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <!-- 预设置标题，确保Live2D能获取到 -->
+    <script>
+        // 从config.yml预加载标题
+        fetch('contents/config.yml')
+            .then(r => r.text())
+            .then(text => {
+                // 简单解析YAML中的title
+                const match = text.match(/^title:\s*(.+)$/m);
+                if (match && match[1]) {
+                    document.title = match[1].trim();
+                }
+            })
+            .catch(() => {});
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -107,10 +122,10 @@
                         <a class="nav-link me-lg-3" href="#home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
+                        <a class="nav-link me-lg-3" href="#career">CAREER</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
@@ -154,18 +169,6 @@
     </section>
     <!-- Home -->
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
-
     <!-- Experience -->
     <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
         <div class="container px-5">
@@ -177,27 +180,39 @@
     </section>
     <!-- Experience -->
 
-    <!-- Publications -->
+    <!-- Career -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="career">
+        <div class="container px-5">
+            <header>
+                <h2 id="career-subtitle"><i class="bi bi-award-fill"></i>CAREER</h2>
+            </header>
+            <div class="main-body" id="career-md"></div>
+
+        </div>
+    </section>
+    <!-- Career -->
+
+    <!-- Others -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;OTHERS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
         </div>
     </section>
-    <!-- Publications  -->
+    <!-- Others  -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/jiayel78">Github</a>
                 <span class="mx-1">&middot;</span>
                 <a id="license-link"
-                    href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                    href="https://github.com/jiayel78/senli1073.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
